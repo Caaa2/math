@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>钱老师数学 - 精准提分</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+        }
+
+        body {
+            background-color: #f7f9fc;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        /* 顶部标题栏 */
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #3d5166);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .header p {
+            font-size: 17px;
+            opacity: 0.95;
+        }
+
+        /* 教学理念 */
+        .idea {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .idea h2 {
+            color: #e74c3c;
+            font-size: 26px;
+            margin-bottom: 18px;
+        }
+
+        .idea p {
+            font-size: 16px;
+            color: #444;
+        }
+
+        /* 年级卡片容器 */
+        .container {
+            max-width: 900px;
+            margin: 0 auto 60px;
+            padding: 0 20px;
+        }
+
+        /* 年级卡片 */
+        .grade-card {
+            background: white;
+            border-radius: 12px;
+            padding: 26px;
+            margin-bottom: 20px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+            border-left: 5px solid #3498db;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .grade-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+        }
+
+        .grade-card h3 {
+            font-size: 22px;
+            color: #2c3e50;
+            margin-bottom: 12px;
+        }
+
+        .target {
+            margin: 12px 0;
+            color: #444;
+            font-size: 15px;
+        }
+
+        /* 下载按钮 */
+        .download-btn {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 15px;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .download-btn:hover {
+            background-color: #2980b9;
+            transform: scale(1.03);
+        }
+
+        /* 底部 */
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #777;
+            font-size: 14px;
+            background-color: #fff;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 顶部 -->
+    <div class="header">
+        <h1>钱老师 · 数学辅导</h1>
+        <p>初一至高三 专业数学提分辅导</p>
+    </div>
+
+    <!-- 教学理念 -->
+    <div class="idea">
+        <h2>教学理念：精准提分</h2>
+        <p>拒绝盲目刷题，针对考点、易错点、薄弱点精准突破；<br>
+        夯实基础 + 方法技巧 + 思维训练，让每个学生高效提升数学成绩！</p>
+    </div>
+
+    <!-- 分年级教学内容 -->
+    <div class="container">
+        <!-- 初一 -->
+        <div class="grade-card">
+            <h3>初一数学</h3>
+            <p class="target"><strong>教学目标：</strong>完成小学到初中过渡，夯实代数、几何基础，培养良好学习习惯，消除入门畏难情绪。</p>
+            <a href="#" class="download-btn">下载初一学习资料</a>
+        </div>
+
+        <!-- 初二 -->
+        <div class="grade-card">
+            <h3>初二数学</h3>
+            <p class="target"><strong>教学目标：</strong>突破函数、几何证明难点，巩固核心知识点，防止成绩滑坡，建立数学逻辑思维。</p>
+            <a href="#" class="download-btn">下载初二学习资料</a>
+        </div>
+
+        <!-- 初三 -->
+        <div class="grade-card">
+            <h3>初三数学</h3>
+            <p class="target"><strong>教学目标：</strong>中考考点系统梳理，重难点题型拆解，刷题技巧+答题模板训练，冲刺中考高分。</p>
+            <a href="#" class="download-btn">下载中考备考资料</a>
+        </div>
+
+        <!-- 高一 -->
+        <div class="grade-card">
+            <h3>高一数学</h3>
+            <p class="target"><strong>教学目标：</strong>适应高中难度，掌握集合、函数、三角函数基础，构建高中数学知识框架。</p>
+            <a href="#" class="download-btn">下载高一学习资料</a>
+        </div>
+
+        <!-- 高二 -->
+        <div class="grade-card">
+            <h3>高二数学</h3>
+            <p class="target"><strong>教学目标：</strong>突破解析几何、数列、立体几何难点，提升解题速度与正确率，稳扎稳打备战高考。</p>
+            <a href="#" class="download-btn">下载高二学习资料</a>
+        </div>
+
+        <!-- 高三 -->
+        <div class="grade-card">
+            <h3>高三数学</h3>
+            <p class="target"><strong>教学目标：</strong>高考一轮/二轮/三轮复习，高频考点精讲，压轴题突破，查漏补缺，全力冲刺高考目标分。</p>
+            <a href="#" class="download-btn">下载高考复习资料</a>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+        <p>钱老师数学辅导 © 专注初高中数学精准提分</p>
+    </div>
+
+</body>
+</html>
